@@ -9,5 +9,8 @@ namespace Logging
     public interface IMusic
     {
         List<Album> GetAlbumsByArtist(string name);
+
+        int Add(int x, int y);
     }
+
 }

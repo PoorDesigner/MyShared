@@ -8,6 +8,11 @@ namespace Logging
 {
     public class Music : IMusic
     {
+        public int Add(int x, int y)
+        {
+            return x + y;
+        }
+
         public List<Album> GetAlbumsByArtist(string name)
         {
             return new List<Album>() { new Album() { AlbumID = 1, AlbumName = "Album", Artist = name } };

@@ -41,9 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Album.cs" />
+    <Compile Include="IUserRepository.cs" />
     <Compile Include="IMusic.cs" />
     <Compile Include="Music.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserRepo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
